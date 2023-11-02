@@ -1,0 +1,14 @@
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\bin\Debug\net7.0\AplicacionDatos.deps.json
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\bin\Debug\net7.0\AplicacionDatos.runtimeconfig.json
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\bin\Debug\net7.0\AplicacionDatos.dll
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\bin\Debug\net7.0\AplicacionDatos.pdb
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.csproj.AssemblyReference.cache
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.AssemblyInfoInputs.cache
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.AssemblyInfo.cs
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.csproj.CoreCompileInputs.cache
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.dll
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\refint\AplicacionDatos.dll
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.pdb
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\AplicacionDatos.genruntimeconfig.cache
+C:\Users\mauca\source\repos\AplicacionEscuela\AplicacionDatos\obj\Debug\net7.0\ref\AplicacionDatos.dll
