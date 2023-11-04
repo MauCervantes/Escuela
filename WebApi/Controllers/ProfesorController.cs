@@ -27,16 +27,16 @@ namespace WebApi.Controllers
 
         //EndPoint para agregar nuevo profesor
         [HttpPost("profesor")]
-        public bool agregarProfesor([FromBody] string usuario, string pass, string nombre, string email)
+        public bool agregarProfesor([FromBody] Profesor profesor)
         {
-            return profesorDAO.agregarProfesor(usuario, pass, nombre, email);
+            return profesorDAO.agregarProfesor(profesor.Usuario, profesor.Pass, profesor.Nombre, profesor.Email);
         }
 
         //EndPoint para modificar profesor
         [HttpPut("profesor")]
-        public bool actualizarProfesor([FromBody] string usuario, string pass, string nombre, string email)
+        public bool actualizarProfesor([FromBody] Profesor profesor)
         {
-            return profesorDAO.modificarProfesor(usuario, pass, nombre, email);
+            return profesorDAO.modificarProfesor(profesor.Usuario, profesor.Pass, profesor.Nombre, profesor.Email);
         }
     }
 }

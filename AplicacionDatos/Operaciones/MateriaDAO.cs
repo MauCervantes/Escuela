@@ -10,11 +10,6 @@ namespace AplicacionDatos.Operaciones
 {
     public class MateriaDAO
     {
-        //Consultar todas las materias
-        //Consultar materias por ID
-        //Insertar Materia --Nombre del profesor. Recordar
-        //Actualizar Materia
-
         //creamos un obj de contexto db
         public EscuelaContext contexto = new EscuelaContext();
 

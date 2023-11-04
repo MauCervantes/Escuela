@@ -13,5 +13,5 @@ public partial class Profesor
 
     public string Email { get; set; } = null!;
 
-    public virtual ICollection<Asignatura> Asignaturas { get; set; } = new List<Asignatura>();
+    public virtual ICollection<Asignatura>? Asignaturas { get; set; } = new List<Asignatura>();
 }

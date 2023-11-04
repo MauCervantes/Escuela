@@ -13,7 +13,7 @@ public partial class Asignatura
 
     public string? Profesor { get; set; }
 
-    public virtual ICollection<Matricula> Matriculas { get; set; } = new List<Matricula>();
+    public virtual ICollection<Matricula>? Matriculas { get; set; } = new List<Matricula>();
 
     public virtual Profesor? ProfesorNavigation { get; set; }
 }

@@ -10,12 +10,6 @@ namespace AplicacionDatos.Operaciones
 {
     public class ProfesorDAO
     {
-
-        //Consultar todos profesores
-        //Consultar por ID
-        //Agregar profesor
-        //Modificar Profesor
-
         //Creamos obj de tipo context
         public EscuelaContext contexto =  new EscuelaContext();
 
@@ -57,15 +51,22 @@ namespace AplicacionDatos.Operaciones
         public bool modificarProfesor(string usuario, string pass, string nombre, string email)
         {
             var profesor = seleccionar(usuario);
-
+            
             if (profesor != null)
             {
-                profesor.Pass = pass;
-                profesor.Nombre = nombre;
-                profesor.Email = email;
+                try
+                {
+                    profesor.Pass = pass;
+                    profesor.Nombre = nombre;
+                    profesor.Email = email;
 
-                contexto.SaveChanges();
-                return true;
+                    contexto.SaveChanges();
+                    return true;
+                }catch(Exception ex)
+                {
+                    return false;
+                }
+                
             }
             else
             {

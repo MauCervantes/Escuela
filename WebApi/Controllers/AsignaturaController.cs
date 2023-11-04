@@ -27,16 +27,16 @@ namespace WebApi.Controllers
 
         //EndPoint para agregar nueva asignatura
         [HttpPost("asignatura")]
-        public bool agregarMateria([FromBody] string nombre, int creditos, string profesor)
+        public bool agregarMateria([FromBody] Asignatura asig)
         {
-            return materiaDAO.insertarMateria(nombre, creditos, profesor);
+            return materiaDAO.insertarMateria(asig.Nombre, asig.Creditos, asig.Profesor);
         }
 
         //EndPoint para actualizar asignatura por id
         [HttpPut("asignatura")]
-        public bool modificarAsignatura(int id, string nombre, int creditos, string profesor)
+        public bool modificarAsignatura([FromBody] Asignatura asig)
         {
-            return materiaDAO.actualizarAsignatura(id, nombre, creditos, profesor);
+            return materiaDAO.actualizarAsignatura(asig.Id, asig.Nombre, asig.Creditos, asig.Profesor);
         }
     }
 }
